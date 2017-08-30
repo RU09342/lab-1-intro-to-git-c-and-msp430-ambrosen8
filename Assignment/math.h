@@ -2,7 +2,7 @@
  * math.h
  *
  *  Created on: Aug 22, 2017
- *      Author: Russty
+ *      Author: Russell
  */
 
 #ifndef MATH_H_
