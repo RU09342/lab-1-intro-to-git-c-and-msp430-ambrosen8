@@ -28,7 +28,7 @@ To send text or characters on the UART line, click on the "Send" tab. From here,
 ## Loopback test
 If you want to make sure that you have your UART Cable driver and ensure that nothing is electrically wrong with the cable, you can perform a loopback test. This is done by tying together the RX and TX pins using a wire, jumper, etc. If you have your PUTTY or RealTerm session running, if you transmit any characters, you should see them pop up on the screen. This is actually your PC sending UART signals over the TX line and you are seeing what the computer has read from the RX line which should be the same.
 
-## Running the Code
-So what exactly does this code do? It essentially makes the target processor act like that electrical short. It takes what ever it recieves on the TX line and will repeat it on the RX line. "Why in the hell would we ever want to do that?". I would respond with "Why in the hell would I ever want a $1000 computer to say 'Hello, World!' in a tiny textbox when I could be playing a video game?". The idea of an Echo is very powerful in understanding how a processors hardware UART behaves and how to utilize it. **IT IS NOT YOUR JOB IN THIS LAB TO UNDERSTAND UART!**
+## What does this code actually do?
+It essentially makes the target processor act like that electrical short. It takes what ever it recieves on the TX line and will repeat it on the RX line. "Why in the hell would we ever want to do that?". I would respond with "Why in the hell would I ever want a $1000 computer to say 'Hello, World!' in a tiny textbox when I could be playing a video game?". The idea of an Echo is very powerful in understanding how a processor's hardware UART behaves and how to utilize it. **IT IS NOT YOUR JOB IN THIS LAB TO UNDERSTAND UART!** Rather we want to condition you to the ways of UART so that when we can do some cool stuff fairly quickly.
 
 The purpose of these examples are just to get you familiar with one way to talk to a microprocessor.
