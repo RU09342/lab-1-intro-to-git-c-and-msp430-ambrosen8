@@ -38,3 +38,5 @@ Currently, your repository will be graded on the following pillars:
 * How easy is it to utilize/implement your code?
 
 The main reason we are utilizing git is so we can generate libraries of example code and drivers for you to use in the future and show to potential employers what you have done.
+
+#Nick Ambrose
