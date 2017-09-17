@@ -1,5 +1,6 @@
+//Calculator 
 #include <stdio.h>
-#include <math.h>
+#include "math.h"
 
 int math(int num1, int num2, char Operator)
 {
@@ -17,7 +18,7 @@ result = num1 / num2;
 case '%':				// % operator
 result = num1 % num2;
 default:				// Prints error message
-puts("Invalid Operator");
+result = 0;
 }
 return result;			
 }
