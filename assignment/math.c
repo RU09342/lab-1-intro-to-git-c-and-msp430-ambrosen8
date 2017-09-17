@@ -17,7 +17,7 @@ case '/':				// / operator
 result = num1 / num2;
 case '%':				// % operator
 result = num1 % num2;
-default:				// Prints error message
+default:				// Sets result to 0
 result = 0;
 }
 return result;			
